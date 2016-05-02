@@ -4,8 +4,8 @@ var morgan         = require('morgan');          // log requests to the console 
 var path           = require('path');
 
 // Specify route points ================================================================================
-var template = require('./routes/jobFinder/index');
-var templateAPI = require('./routes/jobFinder/api');
+var template = require('./routes/template/index');
+var templateAPI = require('./routes/template/api');
 
 // Change root path to route path ======================================================================
 app.use('/template', express.static(__dirname + '/public/template'));
